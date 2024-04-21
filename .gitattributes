@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+Assets/OpenCVForUnity/Plugins/IOS/libopencvforunity.a filter=lfs diff=lfs merge=lfs -text
+Assets/OpenCVForUnity/Plugins/IOS/opencv2.framework/opencv2 filter=lfs diff=lfs merge=lfs -text
+Assets/OpenCVForUnity/Plugins/IOS/opencv2.framework/opencv2 filter=lfs diff=lfs merge=lfs -text
+
+Assets/OpenCVForUnity/Plugins/WebGL/2021.2/opencvforunity.bc filter=lfs diff=lfs merge=lfs -text
+Assets/OpenCVForUnity/Plugins/WebGL/2022.2/opencvforunity.bc filter=lfs diff=lfs merge=lfs -text
+Assets/OpenCVForUnity/Plugins/WebGL/2023.2/opencvforunity.bc filter=lfs diff=lfs merge=lfs -text
